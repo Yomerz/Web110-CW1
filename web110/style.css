@@ -4,13 +4,24 @@ body {
     font-family: Georgia, sans-serif;
     margin: 20px;
     padding: 20px;
+    text-align: center;
+}
+
+img,
+audio,
+video,
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 h1 {
     background-color: #02628f;
     color: #000000;
     text-align: center;
     font-size: 32px;
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 p {
@@ -21,4 +32,9 @@ p {
     text-align: justify;
     font-size: 16px;
     line-height: 1.6;
+
+}
+
+.backtoindex {
+    text-align: center;
 }
